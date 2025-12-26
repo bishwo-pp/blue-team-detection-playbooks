@@ -1,0 +1,7 @@
+{
+  "EventID": 4688,
+  "ProcessName": "powershell.exe",
+  "CommandLine": "powershell.exe -EncodedCommand SQBFAFgA",
+  "User": "TEST\\user1",
+  "Timestamp": "2025-01-01T10:15:30Z"
+}
