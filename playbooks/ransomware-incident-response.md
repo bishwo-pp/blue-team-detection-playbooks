@@ -1,31 +1,31 @@
 # 🚨 Ransomware Incident Response Playbook
 
 ## 1. Detection
-- SIEM alerts for mass file encryption
+- Mass file modification alerts
 - Suspicious PowerShell or wmic execution
-- Endpoint behavioral alerts
+- EDR ransomware behavioral alerts
 
 ## 2. Triage
-- Identify affected hosts
-- Determine ransomware family (if possible)
-- Assess scope and impact
+- Identify affected hosts and users
+- Determine ransomware strain (if possible)
+- Assess business impact
 
 ## 3. Containment
-- Isolate affected systems
+- Isolate infected systems
 - Disable compromised accounts
-- Block C2 indicators
+- Block known IOCs
 
 ## 4. Eradication
-- Remove malware artifacts
+- Remove malicious artifacts
 - Patch exploited vulnerabilities
 - Reset credentials
 
 ## 5. Recovery
-- Restore from clean backups
+- Restore from verified backups
 - Monitor for reinfection
 - Validate system integrity
 
 ## 6. Lessons Learned
 - Root cause analysis
-- Detection improvements
-- Control gaps identified
+- Detection gaps
+- Control improvements
