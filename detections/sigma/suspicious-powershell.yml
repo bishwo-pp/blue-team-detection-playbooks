@@ -1,0 +1,26 @@
+title: Suspicious PowerShell Execution
+id: 9a1c8c4b-1d2e-4f9e-a123-psh001
+status: experimental
+description: Detects suspicious PowerShell execution often used in malware or post-exploitation
+author: Bishwo Prakash Pokharel
+date: 2025/01/01
+
+logsource:
+  product: windows
+  service: security
+
+detection:
+  selection:
+    EventID: 4688
+    NewProcessName|endswith: '\powershell.exe'
+    CommandLine|contains:
+      - 'EncodedCommand'
+      - 'IEX'
+      - 'Invoke-Expression'
+  condition: selection
+
+level: high
+
+tags:
+  - attack.execution
+  - attack.t1059.001
