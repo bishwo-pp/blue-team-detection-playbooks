@@ -1,69 +1,41 @@
 # 🛡️ Blue Team Detection & Incident Response Playbooks
 
-## 📌 Overview
-This repository provides **practical blue-team detection rules, incident response playbooks, and threat intelligence mappings** designed for SOC analysts, detection engineers, and cybersecurity leaders.
+## Overview
+This repository contains **blue-team detection rules, incident response playbooks, and threat intelligence mappings** designed for SOC analysts, detection engineers, and cybersecurity leaders.
 
-The goal is to move beyond alert noise and focus on **actionable, context-driven detection and response** aligned with real-world attack techniques.
-
----
-
-## 🎯 Objectives
-- Build high-quality detections mapped to **MITRE ATT&CK**
-- Provide clear, repeatable **incident response playbooks**
-- Support SOC operations with structured threat intelligence
-- Promote detection engineering best practices
+The focus is on **behavior-based detection, structured response, and MITRE ATT&CK alignment**.
 
 ---
 
-## 🧩 Repository Contents
-
-### 🔍 Detection Rules
-- **Sigma rules** for Windows, endpoint, and SIEM detections
-- **YARA rules** for malware identification
-- MITRE ATT&CK technique mapping for each detection
-
-### 🚨 Incident Response Playbooks
-- Ransomware
-- Phishing
-- Insider Threats
-
-Each playbook includes:
-- Detection triggers
-- Investigation steps
-- Containment actions
-- Eradication & recovery
-- Lessons learned
-
-### 🧠 Threat Intelligence
-- ATT&CK technique explanations
-- Detection-to-technique mappings
-- Analyst notes
+## Objectives
+- Build actionable detections mapped to real-world attack techniques
+- Provide reusable incident response playbooks
+- Support SOC operations with threat intelligence context
+- Demonstrate detection engineering best practices
 
 ---
 
-## 🧰 Tools & Frameworks Referenced
-- Sigma
-- YARA
-- MITRE ATT&CK
-- SIEM (Splunk / Sentinel / ELK concepts)
-- Windows Event Logs
-- EDR & SOC workflows
+## Repository Structure
+- `detections/` – Sigma & YARA detection rules
+- `playbooks/` – Incident response procedures
+- `threat-intel/` – ATT&CK mappings & attack techniques
+- `docs/` – Detection engineering & SOC maturity guidance
+- `logs/` – Sanitized sample logs
+- `diagrams/` – Architecture & workflow explanations
 
 ---
 
-## ⚠️ Disclaimer
-All rules, logs, and examples are **sanitized and for educational or defensive purposes only**.  
-No real production data or malware samples are included.
+## Disclaimer
+All content is **sanitized and for defensive, educational purposes only**.  
+No real malware or sensitive data is included.
 
 ---
 
-## 👤 Author
+## Author
 **Bishwo Prakash Pokharel**  
 Cybersecurity Researcher • Educator • IT Professional  
 
-📫 GitHub: https://github.com/bishwo-pp  
-🔗 LinkedIn: https://www.linkedin.com/in/bishwopp  
+GitHub: https://github.com/bishwo-pp  
+LinkedIn: https://www.linkedin.com/in/bishwopp  
 
----
-
-⭐ If this repository helps you, feel free to star it or contribute.
+⭐ Star this repo if you find it useful.
